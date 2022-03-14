@@ -26,5 +26,6 @@ let tableData = generatePeople(15);
 <table>
     <TableHead tableHead={tableData}/>
     <TableRow tableRow={tableData}/>
-    
 </table>
+
+

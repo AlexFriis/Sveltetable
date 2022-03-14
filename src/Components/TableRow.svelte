@@ -11,3 +11,9 @@
         </tr>
     {/each}
 </tbody>
+
+<style>
+    td {
+        border: 1px solid black;
+    }
+</style>
