@@ -13,6 +13,7 @@ function generatePeople(count) {
             name: faker.name.findName(),
             email: faker.internet.email(),
             phone: faker.phone.phoneNumber(),
+            vehicle: faker.vehicle.vehicle(),
         };
         tableData.push(person);
         count--;
