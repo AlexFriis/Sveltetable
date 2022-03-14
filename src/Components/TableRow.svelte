@@ -3,13 +3,12 @@
     
 </script>
 
-
-    <tbody>
+<tbody>
     {#each Object.values(tableRow) as row}
-    <tr>
+        <tr>
         {#each Object.values(row) as cell}
-        <td>{cell}</td>
+            <td>{cell}</td>
         {/each}
-    </tr>
+        </tr>
     {/each}
 </tbody>
