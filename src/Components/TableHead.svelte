@@ -5,10 +5,10 @@
 
 <thead>
     <tr>
-        <!--Returns an array of a given objects' own enumerable property names-->
-        {#each Object.keys(tableHead[0]) as head}
+        <!--Returns an array of a given objects' own enumerable property names(keys)-->
+        {#each Object.keys(tableHead[0]) as columnName}
             <th>
-                {head}
+                {columnName}
             </th>
         {/each}
     </tr>
