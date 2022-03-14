@@ -1,6 +1,5 @@
 <script>
     export let tableRow;
-    
 </script>
 
 <tbody>

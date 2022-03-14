@@ -3,7 +3,6 @@
     export let tableHead;
 </script>
 
-
 <thead>
     <tr>
         <!--Returns an array of a given objects' own enumerable property names-->

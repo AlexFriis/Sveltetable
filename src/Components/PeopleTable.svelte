@@ -3,7 +3,6 @@ import TableHead from './TableHead.svelte';
 import TableRow from './TableRow.svelte';
 import { faker } from "@faker-js/faker";
 
-
 function generatePeople(count) {
 
     let tableData = [];
